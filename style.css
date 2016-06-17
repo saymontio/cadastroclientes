@@ -1,0 +1,46 @@
+.cliente-container {
+    height: 250px;
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+    background-image: url(http://dfxztci51njn7.cloudfront.net/medium/clientes-954228156.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.cliente {
+    height: inherit;
+    padding: 30px;
+    color: #FFFFFF;
+}
+
+.cliente-container:hover .detalhes {
+    top: 0;
+    display: block;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #FFFFFF;
+}
+
+.cliente-container:hover .cliente {
+    display: none;
+}
+
+.detalhes {
+    bottom: 0;
+    height: inherit;
+    width: 100%;
+    text-align: left;
+    padding: 5% 10%;
+}
+
+strong {
+    padding-right: 10px;
+}
